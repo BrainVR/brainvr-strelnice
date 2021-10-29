@@ -7,7 +7,7 @@
 load_strelnice_results(filepth)
 }
 \arguments{
-\item{pth}{}
+\item{filepth}{}
 }
 \value{
 
