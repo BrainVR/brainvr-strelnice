@@ -1,0 +1,297 @@
+***SESSION HEADER***
+{
+    "Participant": "go_01_10_21_ivce",
+    "Timestamp": "12-58-31-10-06-2021"
+}
+---SESSION HEADER---
+***SCHEDULE HEADER***
+[
+  {
+    "questId": "ShootingRangeQuest",
+    "questConfig": {
+      "$type": "ShootingRangeQuestConfig, NUDZ_Base",
+      "animalIsShootableWhenVisibilityReaches": 0.1,
+      "playerDistance": 2.5,
+      "levels": [
+        {
+          "levelName": "zacvik_sous_stat.json",
+          "numbreOfTargets": 10,
+          "enemyVsFriendRatio": 0.5,
+          "stopSignalPropability": 0.0,
+          "stopSignalAppearInterval": [
+            0.1,
+            1.0
+          ],
+          "stopWaveMovement": true,
+          "targetSlotsIndexes": [
+            0,
+            2,
+            3,
+            5
+          ],
+          "successRate": 0.0,
+          "stageSet": 1,
+          "showFeedback": true,
+          "showStatistics": true,
+          "isTutorial": true,
+          "enemiesIndexes": [
+            4
+          ],
+          "friendsIndexes": [
+            0
+          ],
+          "betweenRoundsTime": 0.5,
+          "moveUpTime": 0.5,
+          "waitUpTime": 0.5,
+          "moveDownTime": 0.0,
+          "ErrorMsg": null
+        },
+        {
+          "levelName": "L_sous_stat.json",
+          "numbreOfTargets": 100,
+          "enemyVsFriendRatio": 0.8,
+          "stopSignalPropability": 0.0,
+          "stopSignalAppearInterval": [
+            0.1,
+            1.0
+          ],
+          "stopWaveMovement": true,
+          "targetSlotsIndexes": [
+            0,
+            2,
+            3,
+            5
+          ],
+          "successRate": 0.0,
+          "stageSet": 1,
+          "showFeedback": false,
+          "showStatistics": true,
+          "isTutorial": false,
+          "enemiesIndexes": [
+            4
+          ],
+          "friendsIndexes": [
+            0
+          ],
+          "betweenRoundsTime": 0.5,
+          "moveUpTime": 0.5,
+          "waitUpTime": 0.5,
+          "moveDownTime": 0.0,
+          "ErrorMsg": null
+        },
+        {
+          "levelName": "zacvik_plna_viditelnost.json",
+          "numbreOfTargets": 6,
+          "enemyVsFriendRatio": 0.5,
+          "stopSignalPropability": 0.0,
+          "stopSignalAppearInterval": [
+            0.1,
+            1.0
+          ],
+          "stopWaveMovement": true,
+          "targetSlotsIndexes": [
+            0,
+            2,
+            3,
+            5
+          ],
+          "successRate": 0.0,
+          "stageSet": 1,
+          "showFeedback": true,
+          "showStatistics": true,
+          "isTutorial": true,
+          "enemiesIndexes": [
+            4
+          ],
+          "friendsIndexes": [
+            0
+          ],
+          "betweenRoundsTime": 0.5,
+          "moveUpTime": 0.0,
+          "waitUpTime": 1.0,
+          "moveDownTime": 0.0,
+          "ErrorMsg": null
+        },
+        {
+          "levelName": "L_plna_viditelnost.json",
+          "numbreOfTargets": 100,
+          "enemyVsFriendRatio": 0.8,
+          "stopSignalPropability": 0.0,
+          "stopSignalAppearInterval": [
+            0.1,
+            1.0
+          ],
+          "stopWaveMovement": true,
+          "targetSlotsIndexes": [
+            0,
+            2,
+            3,
+            5
+          ],
+          "successRate": 0.0,
+          "stageSet": 1,
+          "showFeedback": false,
+          "showStatistics": true,
+          "isTutorial": false,
+          "enemiesIndexes": [
+            4
+          ],
+          "friendsIndexes": [
+            0
+          ],
+          "betweenRoundsTime": 0.5,
+          "moveUpTime": 0.0,
+          "waitUpTime": 1.0,
+          "moveDownTime": 0.0,
+          "ErrorMsg": null
+        },
+        {
+          "levelName": "zacvik_voda_stat.json",
+          "numbreOfTargets": 6,
+          "enemyVsFriendRatio": 0.5,
+          "stopSignalPropability": 0.0,
+          "stopSignalAppearInterval": [
+            0.1,
+            1.0
+          ],
+          "stopWaveMovement": true,
+          "targetSlotsIndexes": [
+            0,
+            2,
+            3,
+            5
+          ],
+          "successRate": 0.0,
+          "stageSet": 2,
+          "showFeedback": true,
+          "showStatistics": true,
+          "isTutorial": true,
+          "enemiesIndexes": [
+            7
+          ],
+          "friendsIndexes": [
+            1
+          ],
+          "betweenRoundsTime": 0.5,
+          "moveUpTime": 0.5,
+          "waitUpTime": 0.5,
+          "moveDownTime": 0.0,
+          "ErrorMsg": null
+        },
+        {
+          "levelName": "L_voda_stat.json",
+          "numbreOfTargets": 100,
+          "enemyVsFriendRatio": 0.8,
+          "stopSignalPropability": 0.0,
+          "stopSignalAppearInterval": [
+            0.1,
+            1.0
+          ],
+          "stopWaveMovement": true,
+          "targetSlotsIndexes": [
+            0,
+            2,
+            3,
+            5
+          ],
+          "successRate": 0.0,
+          "stageSet": 2,
+          "showFeedback": false,
+          "showStatistics": true,
+          "isTutorial": false,
+          "enemiesIndexes": [
+            7
+          ],
+          "friendsIndexes": [
+            1
+          ],
+          "betweenRoundsTime": 0.5,
+          "moveUpTime": 0.5,
+          "waitUpTime": 0.5,
+          "moveDownTime": 0.0,
+          "ErrorMsg": null
+        },
+        {
+          "levelName": "zacvik_pohyb.json",
+          "numbreOfTargets": 6,
+          "enemyVsFriendRatio": 0.5,
+          "stopSignalPropability": 0.0,
+          "stopSignalAppearInterval": [
+            0.1,
+            1.0
+          ],
+          "stopWaveMovement": false,
+          "targetSlotsIndexes": [
+            0,
+            2,
+            3,
+            5
+          ],
+          "successRate": 0.0,
+          "stageSet": 2,
+          "showFeedback": true,
+          "showStatistics": true,
+          "isTutorial": true,
+          "enemiesIndexes": [
+            7
+          ],
+          "friendsIndexes": [
+            1
+          ],
+          "betweenRoundsTime": 0.5,
+          "moveUpTime": 0.5,
+          "waitUpTime": 0.5,
+          "moveDownTime": 0.0,
+          "ErrorMsg": null
+        },
+        {
+          "levelName": "L_pohyb.json",
+          "numbreOfTargets": 100,
+          "enemyVsFriendRatio": 0.8,
+          "stopSignalPropability": 0.0,
+          "stopSignalAppearInterval": [
+            0.1,
+            1.0
+          ],
+          "stopWaveMovement": false,
+          "targetSlotsIndexes": [
+            0,
+            2,
+            3,
+            5
+          ],
+          "successRate": 0.0,
+          "stageSet": 2,
+          "showFeedback": false,
+          "showStatistics": true,
+          "isTutorial": false,
+          "enemiesIndexes": [
+            7
+          ],
+          "friendsIndexes": [
+            1
+          ],
+          "betweenRoundsTime": 0.5,
+          "moveUpTime": 0.5,
+          "waitUpTime": 0.5,
+          "moveDownTime": 0.0,
+          "ErrorMsg": null
+        }
+      ],
+      "session_questConfigId": 0,
+      "name": "",
+      "hideFlags": 0
+    }
+  }
+]
+---SCHEDULE HEADER---
+time; event; param
+0.286960; APP_MODE_SET; DESKTOP
+0.323053; SCENE_LOADED; BriansHouse2019/NONE
+0.574468; SCHEDULE_STARTED; 
+0.606944; SCENE_LOADING; CITY_MAIN/ShootingRange
+0.729117; QUEST_STARTED; {"name":"ShootingRangeQuest","id":0}
+23.522944; SCENE_LOADED; CITY_MAIN/ShootingRange
+1379.677537; QUEST_FINISHED; ShootingRangeQuest
+1379.679081; SCHEDULE_FINISHED; 
+1384.763356; APP_QUIT; 
